@@ -4,7 +4,7 @@ import SearchForm from '@/components/SearchForm'
 import { ThreeDCardDemo } from '@/components/ThreeDCard'
 import { Boxes } from '@/components/ui/background-boxes'
 import { cn } from '@/lib/utils'
-import { sanityFetch } from '@/sanity/lib/live'
+import { sanityFetch, SanityLive } from '@/sanity/lib/live'
 import { PROJECT_QUERY } from '@/sanity/lib/queries'
 
 import React from 'react'
@@ -53,6 +53,7 @@ export default async function Home({searchParams} : {
         }
         </ul>
     </section>
+    <SanityLive/>
     </>
   )
 }
