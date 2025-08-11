@@ -29,7 +29,7 @@ export default async function Home({searchParams} : {
       Welcome To ProjectHub
     </h1>
     <p className="sub-heading !max-w-3xl relative">
-     Where ideas meet like-minded people.
+     Where Ideas meet like-minded people.
     </p>
 
 
